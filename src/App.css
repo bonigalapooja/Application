@@ -1,38 +1,323 @@
-.App {
-  text-align: center;
+*{margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+
+}
+ul{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    background-color: rgb(2, 2, 32);
+    color: white;
+    width: 100%;
+    height: 10vh;
+    width: 100%;
+    padding: 10px;
+
+}
+.nav{
+    
+    width: 100%;
+    position: fixed;
+    z-index:999;
+    
+}
+li{
+    list-style: none;
+    float: right;
+    padding: 10px;
+    margin-top: 20px;
+    padding-left: 30px;
+    color:white;
+}
+.btn{
+    border: solid 2px white;
+    border-radius: 50px;
+}
+.head{
+    margin: 80px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn:hover{
+    justify-content: center;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.sub{
+    background-color: brown;
+    width: 100%;
+    }
+.image{
+    background-image: url(https://www.dischool.org/sites/default/files/elementary.jpg);
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* backgroung image for all components */
+.bg{
+    background:linear-gradient(rgba(198, 228, 248, 0.9),rgba(199, 230, 245, 0.8)),url(https://img.freepik.com/free-vector/education-pattern-background-doodle-style_53876-115365.jpg?w=740&t=st=1679029517~exp=1679030117~hmac=b437da92a07d835a366ec916e28d5df2cc69035089078e0e63b4546494925d19.jpg );
+    height: 100px;
+    width: 100%;
+    color: rgb(22, 22, 37);
+    display: flex;
+    align-items: center;
+
+}
+.pr{
+    margin-left: 280px;
+    margin-right: 280px;
+    text-align: center;
+    margin-top: 100px;
+
+}
+.primary{
+    position: absolute;
+    color:white;
+    font-size: 50px;
+    text-shadow: 8px 4px black;
+    transform: translate(430px ,150px);
+    font-weight: bold;
+    margin-left: -80px;
+    margin-top: 80px;
+    
+
+
+}
+.para1{
+    margin-left: 20px;
+    margin-top: 3px;
+    margin: auto 0px;
+}
+.para2{
+    margin-left: 20px;
+    margin-top: 3px;
+    margin:  auto 0px;
+}
+
+.para3{margin-left: 20px;            
+margin-top: 3px;
+margin: auto 0px;
+}
+.space{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.space1{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.logo{
+    display: flex ;
+}
+/* high schools */
+.cab{
+    margin: 30px;
+}
+html, body {
+    font-size: 1em;
+    background-color: #f9fdff;
+    font-family: "Open-Sans-Regular",Arial,sans-serif;
+    box-sizing: border-box;
+    color: #4e5965;
+}
+.dropdown {
+    
+    height: 40px;
+    border-radius: 5px;
+    position: relative;
+    background-color: white;
+    color: black;
+    padding: 4px 16px;
+    font-size: 16px;
+    margin: 10px;
+    border:solid;
+    border-color: black;
+    object-fit: cover;
+}
+.select{
+    display:flex;
+    justify-content: center;
+
+}
+
+select:hover {
+    border-color: green;
+    color:black;
+}
+option{
+    color:black;
+}
+.para{
+   margin-top: 20px;
+   margin-left: 10px;
+}
+.bgimg{
+    background: linear-gradient(rgba(106, 104, 104, 0.3),rgba(100, 99, 99, 0.2)),url("https://www.state.gov/wp-content/uploads/2018/12/shutterstock_251933845-e1554817266526.jpg");
+    background-size: cover;
+    width:100%;
+    height: 70vh;
+    filter: blur(1px);
+    text-align: center;
+
+}
+.text{ 
   color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  padding: 20px;
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 8px 8px #242526;
+  }
+button{
+    border-radius: 18px;
+    margin: 10px;
+    padding: 10px;
+    color: #f9fdff;
+    background-color: #e1375f;
+    border-color: #e1375f;
+    font-style:normal;
 }
 
-.App-link {
-  color: #61dafb;
+p{
+    font-size: 15px;
+    margin:110px;
+    margin-top: -75px;
+    margin-left: 110px;
+    padding: 0px;
+
+}
+.second-bg{
+background: linear-gradient(rgba(198, 228, 248, 0.9),rgba(199, 230, 245, 0.8)),url("https://img.freepik.com/premium-vector/back-school-doodle-line-set-vector-bundle-education-school-set_548646-8545.jpg");
+width: 100%;
+padding:30px;
+text-align: center;
+font-weight: bold;
+}
+.map{
+    width:100%;
+    height: 500px;
+    margin-top: 30px;
+}
+.map1{
+    width: 100%;
+    height: 500px;
+
+}
+.footer{
+    background-color: #1a2330;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    align-content: center;
+    position: absolute;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: auto 20px;
+    
+    
+}
+a{
+    color: white;
+    margin-bottom: 30px;
+    
+}
+.slash{
+    color:white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.last{
+    
+    margin-top: 20px;
+    padding-left: 100px;
+
+}
+.privarcy{
+    padding-left: 100px;
+}
+
+.copyright{
+    float:right;
+    text-align: center;
+    margin-top: -18px;
+    
+    
+
+}
+.card{
+    background-color: white;
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 50px;
+    opacity: 0.8;
+     border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px solid white;
+}
+.card1{
+    color: black;
+    margin-top: 50px;
+    margin-right: 40px;
+    text-align: center;
+    font-size: 12px;
+    
+
+}
+
+.container{
+float: right;
+width: 40px;
+height: 200px; 
+display: grid; 
+justify-content: center;                                     
+background-color:gray;
+
+}
+.facebook{
+    
+}
+
+
+
+
+.facebook:hover{
+
+cursor: pointer;
+color: blue;
+background-color: purples;
+}
+
+.you:hover{
+    cursor: pointer;
+    color: red;
+    background-color: purple;
+    
+}
+
+.twitter:hover{
+    cursor: pointer;
+    color: rgb(6, 119, 134);
+    background-color:purple;
+    
+
+}
+.insta:hover{
+    
+    cursor: pointer;
+    color: rgb(20, 238, 93);
+    background-color: purple
 }
